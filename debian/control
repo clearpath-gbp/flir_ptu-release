@@ -1,0 +1,12 @@
+Source: ros-noetic-flir-ptu-description
+Section: misc
+Priority: optional
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-xacro
+Homepage: http://wiki.ros.org/flir_ptu_driver
+Standards-Version: 3.9.2
+
+Package: ros-noetic-flir-ptu-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-urdf, ros-noetic-xacro
+Description: URDF description the FLIR PTUs, currently the D46.

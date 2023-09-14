@@ -2,6 +2,9 @@
 Changelog for package flir_ptu_viz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2023-09-14)
+------------------
+
 0.2.2 (2023-03-27)
 ------------------
 * Merge pull request `#50 <https://github.com/ros-drivers/flir_ptu/issues/50>`_ from ros-drivers/wip-simulation

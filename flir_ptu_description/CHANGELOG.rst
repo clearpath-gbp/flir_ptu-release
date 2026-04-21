@@ -2,6 +2,9 @@
 Changelog for package flir_ptu_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2026-04-21)
+------------------
+
 1.0.0 (2026-04-20)
 ------------------
 * Added sim support, fixed function naming.

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot name="flir_ptu" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:arg name="model" default="ptu5" />
+
+  <link name="base_link" />
+
+  <xacro:include filename="flir_ptu.urdf.xacro" />
+  <xacro:flir_ptu name="ptu" model="$(arg model)" />
+
+  <!-- Create a fixed joint to connect the PTU to the rest of the robot -->
+  <joint name="base_to_ptu_base" type="fixed">
+    <parent link="base_link"/>
+    <child link="ptu_base_link"/>
+    <origin xyz="0 0 0"/>
+  </joint>
+
+</robot>

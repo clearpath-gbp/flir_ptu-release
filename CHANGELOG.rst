@@ -2,6 +2,9 @@
 Changelog for package flir_ptu_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2026-05-04)
+------------------
+
 1.0.1 (2026-04-21)
 ------------------
 * Fixed compiling on ARM by changing to sign char.
